@@ -27,18 +27,44 @@
 
 $colors: (
   primary:    #fff,
-  secondary:  #E2001A,
-  danger:     #FFE000,
-  light:      #E2001A,
-  dark:       #9B0012,
-  favorite:   #69BB7B
+  secondary:  #0b68ae,
+  danger:     #cdd076,
+  light:      #eee,
+  dark:       #2a2a2a,
+  favorite:   #9da396
 );
 
-$toolbar-background: #E2001A;
+$toolbar-background: color($colors, primary);
 $link-color: color($colors, secondary); 
 $link-md-color: color($colors, secondary); 
 $link-ios-color: color($colors, secondary); 
 $link-wp-color: color($colors, secondary); 
+
+
+$footer-background: color($colors, dark); 
+$footer-link-color: color($colors, primary); 
+$border-color: color($colors, danger);
+
+
+.toolbar{
+  border-bottom: 1px solid color($colors, light);
+}
+ion-header .toolbar-title {
+  text-align: right;
+}
+.title-image{
+  height: 63px;
+}
+
+
+.bottom_bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: color($colors, dark);
+    color: color($colors, primary);
+    border-top: 2px solid color($colors, danger);
+}
 
 .button-icon-right{
     float: right;

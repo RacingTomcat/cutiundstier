@@ -2,10 +2,13 @@ import { Component, ViewChild } from '@angular/core';
 import { App, ionicBootstrap, Platform, Nav } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 
-import { AktuellesPage } from './pages/aktuelles/aktuelles';
-import { TerminePage } from './pages/termine/termine';
+import { AppPage } from './pages/app/app';
 import { KontaktPage } from './pages/kontakt/kontakt';
-import { MitgliederPage } from './pages/mitglieder/mitglieder';
+import { LeistungenPage } from './pages/leistungen/leistungen';
+import { ProjektePage } from './pages/projekte/projekte';
+import { StartPage } from './pages/startseite/startseite';
+import { TeamPage } from './pages/team/team';
+import { WebPage } from './pages/web/web';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -14,7 +17,7 @@ import { MitgliederPage } from './pages/mitglieder/mitglieder';
 class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = AktuellesPage;
+  rootPage: any = StartPage;
 
   pages: Array<{title: string, icon: string, component: any}>
 
@@ -23,10 +26,13 @@ class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-        { title: 'Aktuelles', icon: 'paper', component: AktuellesPage },
-        { title: 'Termine', icon: 'calendar', component: TerminePage },
-        { title: 'Kontakt', icon: 'mail', component: KontaktPage },
-        { title: 'Mitglieder', icon: 'contact', component: MitgliederPage }
+        { title: 'Startseite', icon: '', component: StartPage },
+        { title: 'Web', icon: '', component: WebPage },
+        { title: 'App', icon: '', component: AppPage },
+        { title: 'Leistungen', icon: '', component: LeistungenPage },
+        { title: 'Projekte', icon: '', component: ProjektePage },
+        { title: 'Team', icon: '', component: TeamPage },
+        { title: 'Kontakt', icon: 'contact', component: KontaktPage }
     ];
 
   }
