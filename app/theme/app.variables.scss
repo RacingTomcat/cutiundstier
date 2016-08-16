@@ -59,12 +59,7 @@ ion-navbar ion-title ion-img {
 }
 
 
-.bottom_bar{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: color($colors, dark);
-    color: color($colors, primary);
+ion-footer{
     border-top: 2px solid color($colors, danger);
 }
 

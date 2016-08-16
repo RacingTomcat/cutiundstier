@@ -31,7 +31,7 @@ class MyApp {
         { title: 'Startseite', icon: 'home', image: '', component: StartPage },
         { title: 'Web', icon: '', image: 'images/Icon_Webentwicklung.png', component: WebPage },
         { title: 'App', icon: '', image: 'images/Icon_Appentwicklung.png', component: AppPage },
-        { title: 'Leistungen', icon: '', image: 'images/Icon_Service.png', component: LeistungenPage },
+        { title: 'Leistungen', icon: '', image: 'images/Icon_Leistungen.png', component: LeistungenPage },
         { title: 'Projekte', icon: '', image: 'images/Icon_Projekte.png', component: ProjektePage },
         { title: 'Team', icon: '', image: 'images/Icon_Team.png', component: TeamPage },
         { title: 'Kontakt', icon: '', image: 'images/Icon_Kontakt.png', component: KontaktPage }

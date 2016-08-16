@@ -7,7 +7,7 @@
       <ion-img src="{{global.logo}}" width="85" height="40"></ion-img>
     </ion-title>
   </ion-navbar>
-  <ion-toolbar no-border-top>
+  <ion-toolbar no-border-top dark>
     <ion-title><ion-img *ngIf="global.logo_startseite" logo width="25" height="25" src="{{global.logo_startseite}}"></ion-img>{{title}}</ion-title>
   </ion-toolbar>  
   <ion-img src="images/slider_cutiundstier.jpg"></ion-img> 
@@ -19,8 +19,20 @@
 
 </ion-content>
 
-<ion-footer>    
-  <div class="bottom_bar">
-    <ion-title>Footer</ion-title>
-  </div>
+<!--
+<ion-footer dark>    
+    <ion-toolbar dark>
+      <ion-buttons start>
+        <button outline primary>
+          Impressum
+        </button>
+        <button outline primary>
+          Datenschutz
+        </button>
+        <button outline primary>
+          &copy; 2016
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
 </ion-footer>
+-->
