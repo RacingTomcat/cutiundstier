@@ -10,7 +10,7 @@ import { GlobalVars } from '../../providers/global-vars/global-vars';
 export class StartPage {
 
   nav_title = 'Startseite';
-  title = 'Herzlich Willkommen';
+  title = 'cuti und stier - Internetagentur';
 
   constructor(private navController: NavController, private global: GlobalVars) {
 
