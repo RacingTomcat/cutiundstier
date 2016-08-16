@@ -49,12 +49,10 @@ $border-color: color($colors, danger);
 .toolbar{
   border-bottom: 1px solid color($colors, light);
 }
-ion-header .toolbar-title {
-  text-align: right;
+ion-title ion-img {
+  float: right;
 }
-.title-image{
-  height: 63px;
-}
+
 
 
 .bottom_bar{

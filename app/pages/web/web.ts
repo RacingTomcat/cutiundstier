@@ -8,6 +8,7 @@ import { NavController } from 'ionic-angular';
 export class WebPage {
 
     title = 'Web';
+    icon = 'Web';
 
     constructor(private navController: NavController) {
     }

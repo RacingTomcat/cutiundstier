@@ -2,6 +2,8 @@ import { Component, ViewChild } from '@angular/core';
 import { App, ionicBootstrap, Platform, Nav } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 
+import { GlobalVars } from './providers/global-vars/global-vars'
+
 import { AppPage } from './pages/app/app';
 import { KontaktPage } from './pages/kontakt/kontakt';
 import { LeistungenPage } from './pages/leistungen/leistungen';
@@ -11,28 +13,28 @@ import { TeamPage } from './pages/team/team';
 import { WebPage } from './pages/web/web';
 
 @Component({
-  templateUrl: 'build/app.html'
+  templateUrl: 'build/app.html',
+  providers: [GlobalVars]
 })
 
 class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = StartPage;
-
-  pages: Array<{title: string, icon: string, component: any}>
+  pages: Array<{title: string, icon: string, image: string, component: any}>
 
   constructor(private platform: Platform) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-        { title: 'Startseite', icon: '', component: StartPage },
-        { title: 'Web', icon: '', component: WebPage },
-        { title: 'App', icon: '', component: AppPage },
-        { title: 'Leistungen', icon: '', component: LeistungenPage },
-        { title: 'Projekte', icon: '', component: ProjektePage },
-        { title: 'Team', icon: '', component: TeamPage },
-        { title: 'Kontakt', icon: 'contact', component: KontaktPage }
+        { title: 'Startseite', icon: 'home', image: '', component: StartPage },
+        { title: 'Web', icon: '', image: 'images/Icon_Webentwicklung.png', component: WebPage },
+        { title: 'App', icon: '', image: 'images/Icon_Appentwicklung.png', component: AppPage },
+        { title: 'Leistungen', icon: '', image: 'images/Icon_Service.png', component: LeistungenPage },
+        { title: 'Projekte', icon: '', image: 'images/Icon_Projekte.png', component: ProjektePage },
+        { title: 'Team', icon: '', image: 'images/Icon_Team.png', component: TeamPage },
+        { title: 'Kontakt', icon: '', image: 'images/Icon_Kontakt.png', component: KontaktPage }
     ];
 
   }
