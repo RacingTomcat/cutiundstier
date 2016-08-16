@@ -9,6 +9,7 @@ import { GlobalVars } from '../../providers/global-vars/global-vars';
 
 export class StartPage {
 
+  nav_title = 'Startseite';
   title = 'Herzlich Willkommen';
 
   constructor(private navController: NavController, private global: GlobalVars) {

@@ -54,4 +54,4 @@ class MyApp {
   }
 }
 
-ionicBootstrap(MyApp);
+ionicBootstrap(MyApp,null,{mode: 'md'});
