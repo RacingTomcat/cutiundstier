@@ -5,10 +5,10 @@
 -->
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PackageCertificateKeyFile>CordovaApp_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>..\..\res\native\windows\CordovaApp.pfx</PackageCertificateKeyFile>
     <DefaultLanguage>de-DE</DefaultLanguage>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="CordovaApp_TemporaryKey.pfx" />
+    <None Include="..\..\res\native\windows\CordovaApp.pfx" />
   </ItemGroup>
 </Project>
