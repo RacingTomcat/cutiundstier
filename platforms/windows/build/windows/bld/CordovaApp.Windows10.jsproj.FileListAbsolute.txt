@@ -1,0 +1,17 @@
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\release\arm\win10\resources.pri
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\release\arm\win10\AppxManifest.xml
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\release\arm\win10\CordovaApp.Windows10.build.appxrecipe
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\priconfig.xml
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\layout.resfiles
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\resources.resfiles
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\pri.resfiles
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\qualifiers.txt
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\package.map.txt
+D:\Ionic2\cutiundstier\platforms\windows\build\windows\bld\_pkginfo.txt

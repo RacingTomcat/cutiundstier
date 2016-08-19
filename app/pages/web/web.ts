@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController} from 'ionic-angular';
 
 import { GlobalVars } from '../../providers/global-vars/global-vars';
 
@@ -13,6 +13,13 @@ export class WebPage {
     title = "Webentwicklung";
 
     constructor(private navController: NavController, private global: GlobalVars) {
+
     }
 
+    public openPage() {
+        // with BACK-Button
+        this.navController.push(WebPage);
+        // with MENU-Button
+        //this.navController.setRoot(WebPage);
+    }
 }

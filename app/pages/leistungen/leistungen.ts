@@ -15,4 +15,11 @@ export class LeistungenPage {
     constructor(private navController: NavController, private global: GlobalVars) {
     }
 
+    public openPage() {
+        // with BACK-Button
+        this.navController.push(LeistungenPage);
+        // with MENU-Button
+        //this.navController.setRoot(LeistungenPage);
+    }
+
 }

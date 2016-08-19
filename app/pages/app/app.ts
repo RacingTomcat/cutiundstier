@@ -15,4 +15,11 @@ export class AppPage {
     constructor(private navController: NavController, private global: GlobalVars) {
     }
 
+    public openPage() {
+        // with BACK-Button
+        this.navController.push(AppPage);
+        // with MENU-Button
+        //this.navController.setRoot(AppPage);
+    }
+
 }

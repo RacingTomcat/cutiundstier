@@ -10,7 +10,6 @@ Global
 		Debug|Android = Debug|Android
 		Debug|iOS = Debug|iOS
 		Debug|Windows Phone (Universal) = Debug|Windows Phone (Universal)
-		Debug|Windows Phone 8 = Debug|Windows Phone 8
 		Debug|Windows-AnyCPU = Debug|Windows-AnyCPU
 		Debug|Windows-ARM = Debug|Windows-ARM
 		Debug|Windows-x64 = Debug|Windows-x64
@@ -18,7 +17,6 @@ Global
 		Release|Android = Release|Android
 		Release|iOS = Release|iOS
 		Release|Windows Phone (Universal) = Release|Windows Phone (Universal)
-		Release|Windows Phone 8 = Release|Windows Phone 8
 		Release|Windows-AnyCPU = Release|Windows-AnyCPU
 		Release|Windows-ARM = Release|Windows-ARM
 		Release|Windows-x64 = Release|Windows-x64
@@ -33,10 +31,6 @@ Global
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|iOS.Deploy.0 = Debug|iOS
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows Phone (Universal).ActiveCfg = Debug|Windows Phone (Universal)
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows Phone (Universal).Build.0 = Debug|Windows Phone (Universal)
-		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows Phone (Universal).Deploy.0 = Debug|Windows Phone (Universal)
-		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows Phone 8.ActiveCfg = Debug|Windows Phone 8
-		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows Phone 8.Build.0 = Debug|Windows Phone 8
-		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows Phone 8.Deploy.0 = Debug|Windows Phone 8
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows-AnyCPU.ActiveCfg = Debug|Windows-AnyCPU
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows-AnyCPU.Build.0 = Debug|Windows-AnyCPU
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Debug|Windows-AnyCPU.Deploy.0 = Debug|Windows-AnyCPU
@@ -58,9 +52,6 @@ Global
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows Phone (Universal).ActiveCfg = Release|Windows Phone (Universal)
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows Phone (Universal).Build.0 = Release|Windows Phone (Universal)
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows Phone (Universal).Deploy.0 = Release|Windows Phone (Universal)
-		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows Phone 8.ActiveCfg = Release|Windows Phone 8
-		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows Phone 8.Build.0 = Release|Windows Phone 8
-		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows Phone 8.Deploy.0 = Release|Windows Phone 8
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows-AnyCPU.ActiveCfg = Release|Windows-AnyCPU
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows-AnyCPU.Build.0 = Release|Windows-AnyCPU
 		{DCA80A50-7236-4125-9EA6-C67F17AB7A96}.Release|Windows-AnyCPU.Deploy.0 = Release|Windows-AnyCPU

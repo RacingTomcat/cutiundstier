@@ -1,4 +1,13 @@
 {
+  "name": "cutiundstier",
+  "version": "1.0.1",
+  "author": "cuti und stier gbr",
+  "description": "Informationsdienst für mobile Endgeräte",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/racingtomcat/cutiundstier.git"
+  },  
   "cordovaPlatforms": [],
   "cordovaPlugins": [
     "cordova-plugin-device",
@@ -23,7 +32,6 @@
     "rxjs": "5.0.0-beta.6",
     "zone.js": "^0.6.12"
   },
-  "description": "",
   "devDependencies": {
     "del": "2.2.0",
     "gulp": "3.9.1",
