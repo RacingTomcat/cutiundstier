@@ -94,6 +94,42 @@ h2 a {
     width: 30px;
 }
 
+.separator-holder {
+    border-top: 1px solid #ebebeb;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 49.99%;
+    width: 2000px;
+}
+.separator-right {
+    left: 100%;
+    margin-left: 1em;
+}
+.separator-holder:before {
+    background: #cdd076;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    margin: 0 0 -1px;
+    position: absolute;
+    width: 30px;
+}
+.cus_skills {
+    margin-right: 8px;
+    color: #cdd076;
+}
+.fa-chevron-circle-right:before {
+    content: "\f138";
+}
+
+
+
+
+
+
 .cus_icon-web h2 {
     background: transparent url("../../images/Icon_Webentwicklung.png") no-repeat scroll left center;
     line-height: 2;
