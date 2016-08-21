@@ -12,6 +12,14 @@ www\build\app.html
 www\build\css\app.ios.css
 www\build\css\app.md.css
 www\build\css\app.wp.css
+www\build\fonts\exo-bold.ttf
+www\build\fonts\exo-bold.woff
+www\build\fonts\exo-light.ttf
+www\build\fonts\exo-light.woff
+www\build\fonts\exo-medium.ttf
+www\build\fonts\exo-medium.woff
+www\build\fonts\exo-regular.ttf
+www\build\fonts\exo-regular.woff
 www\build\fonts\ionicons.ttf
 www\build\fonts\ionicons.woff
 www\build\fonts\ionicons.woff2

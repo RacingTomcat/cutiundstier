@@ -74,6 +74,30 @@
     <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\css\app.wp.css">
       <PackagePath>www\build\css\app.wp.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-bold.ttf">
+      <PackagePath>www\build\fonts\exo-bold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-bold.woff">
+      <PackagePath>www\build\fonts\exo-bold.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-light.ttf">
+      <PackagePath>www\build\fonts\exo-light.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-light.woff">
+      <PackagePath>www\build\fonts\exo-light.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-medium.ttf">
+      <PackagePath>www\build\fonts\exo-medium.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-medium.woff">
+      <PackagePath>www\build\fonts\exo-medium.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-regular.ttf">
+      <PackagePath>www\build\fonts\exo-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-regular.woff">
+      <PackagePath>www\build\fonts\exo-regular.woff</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\ionicons.ttf">
       <PackagePath>www\build\fonts\ionicons.ttf</PackagePath>
     </AppxPackagedFile>

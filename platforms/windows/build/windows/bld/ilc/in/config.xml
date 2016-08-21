@@ -29,10 +29,6 @@
     <allow-intent href="geo:*" />
     <vs:platformSpecificValues>
         <vs:platformSpecificWidget id="cutiundstier" platformName="windows" version="1.0.1.0">
-            <vs:appxPackageIsForStore>True</vs:appxPackageIsForStore>
-            <vs:appxBundle>Auto</vs:appxBundle>
-            <vs:appxBundlePlatforms>arm</vs:appxBundlePlatforms>
-            <vs:packageOutputPath>D:\Ionic\cutiundstier\AppPackages\</vs:packageOutputPath>
         </vs:platformSpecificWidget>
     </vs:platformSpecificValues>
     <preference name="webviewbounce" value="false" />

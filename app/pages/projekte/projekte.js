@@ -18,6 +18,12 @@ var ProjektePage = (function () {
         this.nav_title = 'Projekte';
         this.title = 'Projekte';
     }
+    ProjektePage.prototype.openPage = function () {
+        // with BACK-Button
+        this.navController.push(ProjektePage);
+        // with MENU-Button
+        //this.navController.setRoot(ProjektePage);
+    };
     ProjektePage = __decorate([
         core_1.Component({
             templateUrl: 'build/pages/projekte/projekte.html'

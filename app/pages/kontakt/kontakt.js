@@ -18,6 +18,12 @@ var KontaktPage = (function () {
         this.nav_title = 'Kontakt';
         this.title = 'Kontakt';
     }
+    KontaktPage.prototype.openPage = function () {
+        // with BACK-Button
+        this.navController.push(KontaktPage);
+        // with MENU-Button
+        //this.navController.setRoot(KOntaktPage);
+    };
     KontaktPage = __decorate([
         core_1.Component({
             templateUrl: 'build/pages/kontakt/kontakt.html'

@@ -15,6 +15,14 @@ D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\css\app.ios.css
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\css\app.md.css
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\css\app.wp.css
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-bold.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-bold.woff
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-light.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-light.woff
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-medium.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-medium.woff
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-regular.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\exo-regular.woff
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\ionicons.ttf
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\ionicons.woff
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\build\fonts\ionicons.woff2
@@ -98,7 +106,6 @@ D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\ilc\www\WinJS\js\base.js
 D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\CordovaApp.Windows10.build.appxrecipe
-D:\Ionic\cutiundstier\platforms\windows\build\windows\release\arm\win10\Upload\CordovaApp.Windows10.build.appxrecipe
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ResourceHandlingTask.state
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\priconfig.xml
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\priconfig.xml.intermediate
@@ -149,6 +156,10 @@ D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\css\a
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\css\app.md.css
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\css\app.wp.css
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\css\inappbrowser.css
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-bold.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-light.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-medium.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-regular.ttf
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\ionicons.ttf
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\noto-sans-bold.ttf
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\noto-sans-regular.ttf
@@ -156,6 +167,10 @@ D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\roboto-light.ttf
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\roboto-medium.ttf
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\roboto-regular.ttf
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-bold.woff
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-light.woff
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-medium.woff
+D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\exo-regular.woff
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\ionicons.woff
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\roboto-bold.woff
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\www\build\fonts\roboto-light.woff
@@ -213,4 +228,3 @@ D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc\in\config.xml
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\ilc.CordovaApp.Windows10.rsp
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\package.map.txt
 D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\_pkginfo.txt
-D:\Ionic\cutiundstier\platforms\windows\build\windows\bld\upload.package.map.txt
