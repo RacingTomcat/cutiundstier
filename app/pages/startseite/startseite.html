@@ -105,17 +105,16 @@
 
 </ion-content>
 
-
 <ion-footer>    
     <ion-toolbar dark>
-        <ion-segment primary>
-            <ion-segment-button value="projekte">
+        <ion-segment [(ngModel)]="nav_title" primary>
+            <ion-segment-button value="projekte" (ionSelect)="projektePage.openPage();">
                 Projekte
             </ion-segment-button>
-            <ion-segment-button value="team">
+            <ion-segment-button value="team" (ionSelect)="teamPage.openPage();">
                 Team
             </ion-segment-button>
-            <ion-segment-button value="kontakt">
+            <ion-segment-button value="kontakt" (ionSelect)="kontaktPage.openPage();">
                 Kontakt
             </ion-segment-button>
         </ion-segment>

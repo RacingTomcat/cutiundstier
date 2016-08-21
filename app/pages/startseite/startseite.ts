@@ -12,7 +12,7 @@ import { WebPage } from '../../pages/web/web';
 
 @Component({
     templateUrl: 'build/pages/startseite/startseite.html',
-    providers: [WebPage, AppPage, LeistungenPage]
+    providers: [WebPage, AppPage, KontaktPage, LeistungenPage, ProjektePage, TeamPage]
 })
 
 export class StartPage {
@@ -23,9 +23,12 @@ export class StartPage {
     constructor(
         private navController: NavController,
         private global: GlobalVars,
-        private webPage: WebPage,
         private appPage: AppPage,
-        private leistungenPage: LeistungenPage
+        private kontaktPage: KontaktPage,
+        private leistungenPage: LeistungenPage,
+        private projektePage: ProjektePage,
+        private teamPage: TeamPage,
+        private webPage: WebPage
     ) {
 
     }

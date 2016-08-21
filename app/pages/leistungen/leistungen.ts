@@ -3,8 +3,13 @@ import { NavController } from 'ionic-angular';
 
 import { GlobalVars } from '../../providers/global-vars/global-vars';
 
+import { KontaktPage } from '../../pages/kontakt/kontakt';
+import { ProjektePage } from '../../pages/projekte/projekte';
+import { TeamPage } from '../../pages/team/team';
+
 @Component({
-  templateUrl: 'build/pages/leistungen/leistungen.html'
+    templateUrl: 'build/pages/leistungen/leistungen.html',
+    providers: [KontaktPage, ProjektePage, TeamPage]
 })
 
 export class LeistungenPage {
@@ -12,7 +17,13 @@ export class LeistungenPage {
     nav_title = 'Leistungen';
     title = 'Leistungen';
 
-    constructor(private navController: NavController, private global: GlobalVars) {
+    constructor(
+        private navController: NavController,
+        private global: GlobalVars,
+        private kontaktPage: KontaktPage,
+        private projektePage: ProjektePage,
+        private teamPage: TeamPage
+    ) {
     }
 
     public openPage() {
