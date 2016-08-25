@@ -58,7 +58,6 @@ www\images\@2xicons\Icon_Leistungen_Service.png
 www\images\@2xicons\Icon_Projekte.png
 www\images\@2xicons\Icon_Team.png
 www\images\@2xicons\Icon_Webentwicklung.png
-www\images\@2xicons\Thumbs.db
 www\images\Icon_Appentwicklung.png
 www\images\Icon_Kontakt.png
 www\images\Icon_Leistungen.png
@@ -66,7 +65,18 @@ www\images\Icon_Projekte.png
 www\images\Icon_Team.png
 www\images\Icon_Webentwicklung.png
 www\images\logo.png
+www\images\logo-aimeos-white.png
+www\images\Showcase_blickfang.jpg
+www\images\Showcase_brand.jpg
+www\images\Showcase_buchholz.jpg
+www\images\Showcase_kuhn.jpg
+www\images\Showcase_lenz.jpg
+www\images\Showcase_leyer.jpg
+www\images\Showcase_midisport.jpg
+www\images\Showcase_sutco.jpg
 www\images\slider_cutiundstier.jpg
+www\images\typo3book-composing-top.png
+www\images\woocommerce_logo.png
 www\index.html
 www\plugins\cordova-plugin-console\www\console-via-logger.js
 www\plugins\cordova-plugin-console\www\logger.js
