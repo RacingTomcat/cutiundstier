@@ -1,3 +1,57 @@
 .team {
      
 }
+
+.image {
+    display: block;
+    margin-bottom: 27px;
+    line-height: 1.8;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img.lazyload {
+    opacity: 0.3;
+    -webkit-transition: opacity 0.3s ease-in 0s;
+    -o-transition: opacity 0.3s ease-in 0s;
+    transition: opacity 0.3s ease-in 0s;
+}
+
+.cus_image-rund figure.image img {
+    border: 6px solid #777777;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.cus_image-rund figure.image img {
+    height: 280px;
+    width: 280px;
+}
+
+opacity: 1;
+}
+
+.cus_image-rund figure.image figcaption {
+    display: none;
+}
+
+.image .caption {
+    padding: 9px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.caption {
+    color: #777777;
+}
+
+.image {
+    display: block;
+    margin-bottom: 27px;
+    line-height: 1.8;
+}
