@@ -258,6 +258,44 @@ module.exports = [
             "cordova.plugins.Keyboard"
         ],
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-geolocation/src/windows/GeolocationProxy.js",
+        "id": "cordova-plugin-geolocation.GeolocationProxy",
+        "pluginId": "cordova-plugin-geolocation",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-geolocation/www/Coordinates.js",
+        "id": "cordova-plugin-geolocation.Coordinates",
+        "pluginId": "cordova-plugin-geolocation",
+        "clobbers": [
+            "Coordinates"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+        "id": "cordova-plugin-geolocation.PositionError",
+        "pluginId": "cordova-plugin-geolocation",
+        "clobbers": [
+            "PositionError"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-geolocation/www/Position.js",
+        "id": "cordova-plugin-geolocation.Position",
+        "pluginId": "cordova-plugin-geolocation",
+        "clobbers": [
+            "Position"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-geolocation/www/geolocation.js",
+        "id": "cordova-plugin-geolocation.geolocation",
+        "pluginId": "cordova-plugin-geolocation",
+        "clobbers": [
+            "navigator.geolocation"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -275,7 +313,8 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.1",
     "cordova-plugin-whitelist": "1.2.2",
-    "ionic-plugin-keyboard": "2.2.1"
+    "ionic-plugin-keyboard": "2.2.1",
+    "cordova-plugin-geolocation": "2.2.0"
 };
 // BOTTOM OF METADATA
 });

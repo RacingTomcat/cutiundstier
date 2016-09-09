@@ -11,24 +11,31 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var ionic_angular_1 = require('ionic-angular');
 var global_vars_1 = require('../../providers/global-vars/global-vars');
+var kontakt_1 = require('../../pages/kontakt/kontakt');
+var projekte_1 = require('../../pages/projekte/projekte');
+var team_1 = require('../../pages/team/team');
 var WebPage = (function () {
-    function WebPage(navController, global) {
-        this.navController = navController;
+    function WebPage(nav, global, kontaktPage, projektePage, teamPage) {
+        this.nav = nav;
         this.global = global;
+        this.kontaktPage = kontaktPage;
+        this.projektePage = projektePage;
+        this.teamPage = teamPage;
         this.nav_title = 'Web';
         this.title = "Webentwicklung";
     }
     WebPage.prototype.openPage = function () {
         // with BACK-Button
-        this.navController.push(WebPage);
+        this.nav.push(WebPage);
         // with MENU-Button
-        //this.navController.setRoot(WebPage);
+        //this.nav.setRoot(WebPage);
     };
     WebPage = __decorate([
         core_1.Component({
-            templateUrl: 'build/pages/web/web.html'
+            templateUrl: 'build/pages/web/web.html',
+            providers: [kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage]
         }), 
-        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars])
+        __metadata('design:paramtypes', [ionic_angular_1.Nav, global_vars_1.GlobalVars, kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage])
     ], WebPage);
     return WebPage;
 }());

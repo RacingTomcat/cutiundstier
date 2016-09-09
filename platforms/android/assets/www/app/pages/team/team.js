@@ -18,6 +18,12 @@ var TeamPage = (function () {
         this.nav_title = 'Team';
         this.title = 'Team';
     }
+    TeamPage.prototype.openPage = function () {
+        // with BACK-Button
+        this.navController.push(TeamPage);
+        // with MENU-Button
+        //this.navController.setRoot(TeamPage);
+    };
     TeamPage = __decorate([
         core_1.Component({
             templateUrl: 'build/pages/team/team.html'

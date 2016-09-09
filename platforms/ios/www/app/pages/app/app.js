@@ -11,10 +11,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var ionic_angular_1 = require('ionic-angular');
 var global_vars_1 = require('../../providers/global-vars/global-vars');
+var kontakt_1 = require('../../pages/kontakt/kontakt');
+var projekte_1 = require('../../pages/projekte/projekte');
+var team_1 = require('../../pages/team/team');
 var AppPage = (function () {
-    function AppPage(navController, global) {
+    function AppPage(navController, global, kontaktPage, projektePage, teamPage) {
         this.navController = navController;
         this.global = global;
+        this.kontaktPage = kontaktPage;
+        this.projektePage = projektePage;
+        this.teamPage = teamPage;
         this.nav_title = 'App';
         this.title = "Appentwicklung";
     }
@@ -26,9 +32,10 @@ var AppPage = (function () {
     };
     AppPage = __decorate([
         core_1.Component({
-            templateUrl: 'build/pages/app/app.html'
+            templateUrl: 'build/pages/app/app.html',
+            providers: [kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage]
         }), 
-        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars])
+        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars, kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage])
     ], AppPage);
     return AppPage;
 }());

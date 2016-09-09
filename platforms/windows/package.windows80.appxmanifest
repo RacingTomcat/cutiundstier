@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-    <Identity Name="cutiundstier.de.cutiundstier-Internetagentur" Publisher="CN=$username$" Version="1.0.2.0" />
+    <Identity Name="cutiundstier.de.cutiundstier-Internetagentur" Publisher="CN=$username$" Version="1.0.4.0" />
     <Properties>
         <DisplayName>cuti und stier - Internetagentur</DisplayName>
         <PublisherDisplayName>cuti und stier gbr</PublisherDisplayName>
@@ -28,5 +28,6 @@
     </Applications>
     <Capabilities>
         <Capability Name="internetClient" />
+        <DeviceCapability Name="location" />
     </Capabilities>
 </Package>

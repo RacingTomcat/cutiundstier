@@ -74,6 +74,18 @@
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\%402xicons\Icon_Webentwicklung.png">
       <PackagePath>www\images\%402xicons\Icon_Webentwicklung.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\cross_plattform_icon.png">
+      <PackagePath>www\images\cross_plattform_icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\effizienz_icon.png">
+      <PackagePath>www\images\effizienz_icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\facebook.png">
+      <PackagePath>www\images\facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\google.png">
+      <PackagePath>www\images\google.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\Icon_Appentwicklung.png">
       <PackagePath>www\images\Icon_Appentwicklung.png</PackagePath>
     </AppxPackagedFile>
@@ -98,11 +110,83 @@
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\logo.png">
       <PackagePath>www\images\logo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\nativ_icon.png">
+      <PackagePath>www\images\nativ_icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_blickfang.png">
+      <PackagePath>www\images\projekte\referenzen_blickfang.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_brand.png">
+      <PackagePath>www\images\projekte\referenzen_brand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_brauchtum_gl.png">
+      <PackagePath>www\images\projekte\referenzen_brauchtum_gl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_buchholz.png">
+      <PackagePath>www\images\projekte\referenzen_buchholz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_dradio.png">
+      <PackagePath>www\images\projekte\referenzen_dradio.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_giw.png">
+      <PackagePath>www\images\projekte\referenzen_giw.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_hiltscher.png">
+      <PackagePath>www\images\projekte\referenzen_hiltscher.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_keppel.png">
+      <PackagePath>www\images\projekte\referenzen_keppel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_kuhn.png">
+      <PackagePath>www\images\projekte\referenzen_kuhn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_kulturspiegel.png">
+      <PackagePath>www\images\projekte\referenzen_kulturspiegel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_lenz.png">
+      <PackagePath>www\images\projekte\referenzen_lenz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_leyer.png">
+      <PackagePath>www\images\projekte\referenzen_leyer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_midisport.png">
+      <PackagePath>www\images\projekte\referenzen_midisport.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_nagaya.png">
+      <PackagePath>www\images\projekte\referenzen_nagaya.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_neofone.png">
+      <PackagePath>www\images\projekte\referenzen_neofone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_sprayliner.png">
+      <PackagePath>www\images\projekte\referenzen_sprayliner.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_sutco.png">
+      <PackagePath>www\images\projekte\referenzen_sutco.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_uhu.png">
+      <PackagePath>www\images\projekte\referenzen_uhu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\referenzen_wir_irw.png">
+      <PackagePath>www\images\projekte\referenzen_wir_irw.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\twitter.png">
+      <PackagePath>www\images\twitter.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\typo3book-composing-top.png">
       <PackagePath>www\images\typo3book-composing-top.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\user_interface_icon.png">
+      <PackagePath>www\images\user_interface_icon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\woocommerce_logo.png">
       <PackagePath>www\images\woocommerce_logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\xing.png">
+      <PackagePath>www\images\xing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\zimmermann_karussel.png">
+      <PackagePath>www\images\zimmermann_karussel.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\app.html">
       <PackagePath>www\build\app.html</PackagePath>
@@ -155,6 +239,9 @@
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\fonts\exo-regular.ttf">
       <PackagePath>www\build\fonts\exo-regular.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\build\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\fonts\ionicons.ttf">
       <PackagePath>www\build\fonts\ionicons.ttf</PackagePath>
     </AppxPackagedFile>
@@ -187,6 +274,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\fonts\exo-regular.woff">
       <PackagePath>www\build\fonts\exo-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\build\fonts\fontawesome-webfont.woff</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\fonts\ionicons.woff">
       <PackagePath>www\build\fonts\ionicons.woff</PackagePath>
@@ -293,6 +383,21 @@
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\plugins\cordova-plugin-dialogs\www\notification.js">
       <PackagePath>www\plugins\cordova-plugin-dialogs\www\notification.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Coordinates.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Coordinates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\plugins\cordova-plugin-geolocation\www\geolocation.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\geolocation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Position.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Position.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\plugins\cordova-plugin-geolocation\www\PositionError.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\PositionError.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
     </AppxPackagedFile>
@@ -341,6 +446,24 @@
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\build\js\Reflect.js.map">
       <PackagePath>www\build\js\Reflect.js.map</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\alex_team.jpg">
+      <PackagePath>www\images\alex_team.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\avatar_haas_2016.jpg">
+      <PackagePath>www\images\avatar_haas_2016.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\csm_sandra_f3f4413341.jpg">
+      <PackagePath>www\images\csm_sandra_f3f4413341.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\michael_team.jpg">
+      <PackagePath>www\images\michael_team.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\mobile_banner.jpg">
+      <PackagePath>www\images\mobile_banner.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\rene_team.jpg">
+      <PackagePath>www\images\rene_team.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\Showcase_blickfang.jpg">
       <PackagePath>www\images\Showcase_blickfang.jpg</PackagePath>
     </AppxPackagedFile>
@@ -367,6 +490,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\slider_cutiundstier.jpg">
       <PackagePath>www\images\slider_cutiundstier.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\projekte\Thumbs.db">
+      <PackagePath>www\images\projekte\Thumbs.db</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\www\images\Thumbs.db">
+      <PackagePath>www\images\Thumbs.db</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ionic2\cutiundstier\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>

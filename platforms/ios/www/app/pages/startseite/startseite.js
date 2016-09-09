@@ -12,24 +12,30 @@ var core_1 = require('@angular/core');
 var ionic_angular_1 = require('ionic-angular');
 var global_vars_1 = require('../../providers/global-vars/global-vars');
 var app_1 = require('../../pages/app/app');
+var kontakt_1 = require('../../pages/kontakt/kontakt');
 var leistungen_1 = require('../../pages/leistungen/leistungen');
+var projekte_1 = require('../../pages/projekte/projekte');
+var team_1 = require('../../pages/team/team');
 var web_1 = require('../../pages/web/web');
 var StartPage = (function () {
-    function StartPage(navController, global, webPage, appPage, leistungenPage) {
+    function StartPage(navController, global, appPage, kontaktPage, leistungenPage, projektePage, teamPage, webPage) {
         this.navController = navController;
         this.global = global;
-        this.webPage = webPage;
         this.appPage = appPage;
+        this.kontaktPage = kontaktPage;
         this.leistungenPage = leistungenPage;
+        this.projektePage = projektePage;
+        this.teamPage = teamPage;
+        this.webPage = webPage;
         this.nav_title = 'Startseite';
         this.title = 'cuti und stier - Internetagentur';
     }
     StartPage = __decorate([
         core_1.Component({
             templateUrl: 'build/pages/startseite/startseite.html',
-            providers: [web_1.WebPage, app_1.AppPage, leistungen_1.LeistungenPage]
+            providers: [web_1.WebPage, app_1.AppPage, kontakt_1.KontaktPage, leistungen_1.LeistungenPage, projekte_1.ProjektePage, team_1.TeamPage]
         }), 
-        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars, web_1.WebPage, app_1.AppPage, leistungen_1.LeistungenPage])
+        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars, app_1.AppPage, kontakt_1.KontaktPage, leistungen_1.LeistungenPage, projekte_1.ProjektePage, team_1.TeamPage, web_1.WebPage])
     ], StartPage);
     return StartPage;
 }());
