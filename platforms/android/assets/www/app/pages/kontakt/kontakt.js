@@ -20,6 +20,8 @@ var KontaktPage = (function () {
         this.title = "Kontakt";
     }
     KontaktPage.prototype.ionViewLoaded = function () {
+    };
+    KontaktPage.prototype.ionViewDidEnter = function () {
         this.loadMap();
     };
     KontaktPage.prototype.openPage = function () {

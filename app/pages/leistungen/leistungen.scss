@@ -1,7 +1,29 @@
 .leistungen {
     
-    .livicon{
-        float:right;
+    .title-box-leistungen {
+        border-bottom-width: 1px;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+    }
+    .title-box-leistungen.text-center:before {
+        left: 50%;
+        margin-left: -20px;
+    }
+    .title-box-leistungen:before {
+        background: #cdd076;
+        bottom: -1px;
+        content: "";
+        display: block;
+        height: 3px;
+        left: 0;
+        margin: 0 0 -1px;
+        position: absolute;
+        width: 40px;
     }
 
+    .livicon{
+        margin: 0px auto 15px;
+        position: relative;
+        display: block;
+    }
 }

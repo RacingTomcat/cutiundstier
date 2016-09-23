@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild, enableProdMode } from '@angular/core';
 import { App, Events, ionicBootstrap, Nav, Platform } from 'ionic-angular';
 import { Splashscreen, StatusBar } from 'ionic-native';
 
@@ -65,6 +65,8 @@ class CusApp {
       }
   }
 }
+
+enableProdMode();
 
 ionicBootstrap(CusApp, null, { mode: 'md' });
 //ionicBootstrap(CusApp); 

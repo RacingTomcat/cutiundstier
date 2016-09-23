@@ -62,5 +62,6 @@ var CusApp = (function () {
     ], CusApp);
     return CusApp;
 }());
+core_1.enableProdMode();
 ionic_angular_1.ionicBootstrap(CusApp, null, { mode: 'md' });
 //ionicBootstrap(CusApp); 

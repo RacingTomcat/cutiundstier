@@ -27,6 +27,9 @@ export class KontaktPage {
     }
 
     ionViewLoaded() {
+    }
+
+    ionViewDidEnter() {
         this.loadMap();
     }
 
@@ -48,6 +51,7 @@ export class KontaktPage {
         }
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
+
         this.addMarker();
     }
 
@@ -62,7 +66,7 @@ export class KontaktPage {
         let content = "<a href=\"http://www.cutiundstier.de/kontakt\">cuti und stier - Internetagentur</a>";
 
         this.addInfoWindow(marker, content);
-
+        
     }
 
     addInfoWindow(marker, content) {

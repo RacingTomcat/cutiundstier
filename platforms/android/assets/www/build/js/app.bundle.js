@@ -63,6 +63,7 @@ var CusApp = (function () {
     ], CusApp);
     return CusApp;
 }());
+core_1.enableProdMode();
 ionic_angular_1.ionicBootstrap(CusApp, null, { mode: 'md' });
 //ionicBootstrap(CusApp); 
 },{"./pages/app/app":2,"./pages/kontakt/kontakt":3,"./pages/leistungen/leistungen":4,"./pages/projekte/projekte":5,"./pages/startseite/startseite":6,"./pages/team/team":7,"./pages/web/web":8,"./providers/global-vars/global-vars":9,"@angular/core":156,"ionic-angular":420}],2:[function(require,module,exports){
@@ -131,6 +132,8 @@ var KontaktPage = (function () {
         this.title = "Kontakt";
     }
     KontaktPage.prototype.ionViewLoaded = function () {
+    };
+    KontaktPage.prototype.ionViewDidEnter = function () {
         this.loadMap();
     };
     KontaktPage.prototype.openPage = function () {

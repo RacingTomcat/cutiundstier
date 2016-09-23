@@ -1,1 +1,1 @@
-D:\Ionic2\cutiundstier\platforms\windows\CordovaApp.Windows10.jsproj;arm
+D:\Ionic2\cutiundstier\platforms\windows\CordovaApp.Windows10.jsproj;neutral

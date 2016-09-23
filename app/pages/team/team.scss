@@ -3,12 +3,14 @@
 		padding-left: 0;
 		list-style: none;
 	}
-	.cus_image-rund img {
+	.cus_image-rund ion-img img {
 		border: 6px solid #777777;
 		border-radius: 50%;
-		width: 155px;
-		height: 155px;
 		overflow: hidden;
+        min-width: 1%;
+        min-height: 1%;
+        max-width: 250px;
+        width: 100%;
 	}
 	.main-title-box{
 		margin-top: 40px;
