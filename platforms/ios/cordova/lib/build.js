@@ -6,9 +6,9 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -36,11 +36,11 @@ module.exports.run = function (buildOpts) {
     buildOpts = buildOpts || {};
 
     if (buildOpts.debug && buildOpts.release) {
-        return Q.reject('Only one of "debug"/"release" options should be specified');
+        return Q.reject('Cannot specify "debug" and "release" options together.');
     }
 
     if (buildOpts.device && buildOpts.emulator) {
-        return Q.reject('Only one of "device"/"emulator" options should be specified');
+        return Q.reject('Cannot specify "device" and "emulator" options together.');
     }
 
     if(buildOpts.buildConfig) {
@@ -48,12 +48,13 @@ module.exports.run = function (buildOpts) {
             return Q.reject('Build config file does not exist:' + buildOpts.buildConfig);
         }
         events.emit('log','Reading build config file:', path.resolve(buildOpts.buildConfig));
-        var buildConfig = JSON.parse(fs.readFileSync(buildOpts.buildConfig, 'utf-8'));
+        var contents = fs.readFileSync(buildOpts.buildConfig, 'utf-8');
+        var buildConfig = JSON.parse(contents.replace(/^\ufeff/, '')); // Remove BOM
         if(buildConfig.ios) {
             var buildType = buildOpts.release ? 'release' : 'debug';
             var config = buildConfig.ios[buildType];
             if(config) {
-                ['codeSignIdentity', 'codeSignResourceRules', 'provisioningProfile'].forEach(
+                ['codeSignIdentity', 'codeSignResourceRules', 'provisioningProfile', 'developmentTeam'].forEach(
                     function(key) {
                         buildOpts[key] = buildOpts[key] || config[key];
                     });
@@ -76,13 +77,16 @@ module.exports.run = function (buildOpts) {
         if (buildOpts.provisioningProfile) {
             extraConfig += 'PROVISIONING_PROFILE = ' + buildOpts.provisioningProfile + '\n';
         }
+        if (buildOpts.developmentTeam) {
+            extraConfig += 'DEVELOPMENT_TEAM = ' + buildOpts.developmentTeam + '\n';
+        }
         return Q.nfcall(fs.writeFile, path.join(__dirname, '..', 'build-extras.xcconfig'), extraConfig, 'utf-8');
     }).then(function () {
         var configuration = buildOpts.release ? 'Release' : 'Debug';
 
-        events.emit('log','Building project  : ' + path.join(projectPath, projectName + '.xcodeproj'));
-        events.emit('log','\tConfiguration : ' + configuration);
-        events.emit('log','\tPlatform      : ' + (buildOpts.device ? 'device' : 'emulator'));
+        events.emit('log','Building project: ' + path.join(projectPath, projectName + '.xcworkspace'));
+        events.emit('log','\tConfiguration: ' + configuration);
+        events.emit('log','\tPlatform: ' + (buildOpts.device ? 'device' : 'emulator'));
 
         var xcodebuildArgs = getXcodeArgs(projectName, projectPath, configuration, buildOpts.device);
         return spawn('xcodebuild', xcodebuildArgs, projectPath);
@@ -94,7 +98,7 @@ module.exports.run = function (buildOpts) {
         var pathToApp = path.join(buildOutputDir, projectName + '.app');
         var pathToIpa = path.join(buildOutputDir, projectName + '.ipa');
         var xcRunArgs = ['-sdk', 'iphoneos', 'PackageApplication',
-            '-v', pathToApp,
+            pathToApp,
             '-o', pathToIpa];
         if (buildOpts.codeSignIdentity) {
             xcRunArgs.concat('--sign', buildOpts.codeSignIdentity);
@@ -144,26 +148,23 @@ function getXcodeArgs(projectName, projectPath, configuration, isDevice) {
     if (isDevice) {
         xcodebuildArgs = [
             '-xcconfig', path.join(__dirname, '..', 'build-' + configuration.toLowerCase() + '.xcconfig'),
-            '-project', projectName + '.xcodeproj',
-            'ARCHS=armv7 arm64',
-            '-target', projectName,
+            '-workspace', projectName + '.xcworkspace',
+            '-scheme', projectName,
             '-configuration', configuration,
-            '-sdk', 'iphoneos',
+            '-destination', 'generic/platform=iOS',
             'build',
-            'VALID_ARCHS=armv7 arm64',
             'CONFIGURATION_BUILD_DIR=' + path.join(projectPath, 'build', 'device'),
             'SHARED_PRECOMPS_DIR=' + path.join(projectPath, 'build', 'sharedpch')
         ];
     } else { // emulator
         xcodebuildArgs = [
             '-xcconfig', path.join(__dirname, '..', 'build-' + configuration.toLowerCase() + '.xcconfig'),
-            '-project', projectName + '.xcodeproj',
-            'ARCHS=i386',
-            '-target', projectName ,
+            '-workspace', projectName + '.xcworkspace',
+            '-scheme', projectName ,
             '-configuration', configuration,
             '-sdk', 'iphonesimulator',
+            '-destination', 'platform=iOS Simulator,name=iPhone 5s',
             'build',
-            'VALID_ARCHS=i386',
             'CONFIGURATION_BUILD_DIR=' + path.join(projectPath, 'build', 'emulator'),
             'SHARED_PRECOMPS_DIR=' + path.join(projectPath, 'build', 'sharedpch')
         ];

@@ -10,6 +10,7 @@ export class GlobalVars {
   public logo_projekte: string;
   public logo_team: string;
   public logo_kontakt: string;
+  public logo_facebook: string;
 
   constructor() {
     this.logo = 'images/logo.png';
@@ -19,6 +20,7 @@ export class GlobalVars {
     this.logo_projekte = 'images/Icon_Projekte.png';
     this.logo_team = 'images/Icon_Team.png';
     this.logo_kontakt = 'images/Icon_Kontakt.png';
+    this.logo_facebook = 'images/Icon_Facebook.png';
   }
 
 }

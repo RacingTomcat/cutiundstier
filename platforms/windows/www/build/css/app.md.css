@@ -226,6 +226,9 @@ ion-list-header, ion-item-divider {
   font-size: 1.4rem !important;
   min-height: 2.0rem !important; }
 
+ion-img img {
+  min-height: inherit !important; }
+
 audio,
 canvas,
 progress,
@@ -9651,6 +9654,27 @@ body {
   margin-top: 10px;
   margin-bottom: 15px;
   display: block; }
+
+.facebook ion-card ion-label h3 {
+  font-size: 18px !important;
+  font-family: Open Sans, Arial; }
+
+.facebook ion-card-content {
+  max-height: 245px;
+  margin-bottom: 15px;
+  overflow: hidden; }
+
+.facebook ion-row {
+  background-color: #eee;
+  margin-bottom: 0; }
+
+.facebook .expand {
+  max-height: 20000px;
+  -webkit-transition: max-height 5s ease-in;
+  transition: max-height 5s ease-in; }
+
+.facebook .expand_hide {
+  display: none; }
 
 .kontakt .txt-gruen {
   color: #cdd076; }

@@ -1,0 +1,27 @@
+.facebook {
+
+    ion-card ion-label h3{
+        font-size: 18px !important;
+        font-family: Open Sans, Arial;
+    }
+
+    ion-card-content{
+        max-height: 245px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+
+    ion-row {
+        background-color: map-get($colors, light);
+        margin-bottom: 0;
+    }
+
+    .expand {
+        max-height: 20000px;
+        transition: max-height 5s ease-in;
+    }
+    .expand_hide {
+        display:none;
+    }
+    
+}

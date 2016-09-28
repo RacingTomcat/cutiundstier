@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var ionic_angular_1 = require('ionic-angular');
 var global_vars_1 = require('./providers/global-vars/global-vars');
 var app_1 = require('./pages/app/app');
+var facebook_1 = require('./pages/facebook/facebook');
 var kontakt_1 = require('./pages/kontakt/kontakt');
 var leistungen_1 = require('./pages/leistungen/leistungen');
 var projekte_1 = require('./pages/projekte/projekte');
@@ -27,7 +28,8 @@ var CusApp = (function () {
             { title: 'Leistungen', icon: '', image: 'images/Icon_Leistungen.png', component: leistungen_1.LeistungenPage },
             { title: 'Projekte', icon: '', image: 'images/Icon_Projekte.png', component: projekte_1.ProjektePage },
             { title: 'Team', icon: '', image: 'images/Icon_Team.png', component: team_1.TeamPage },
-            { title: 'Kontakt', icon: '', image: 'images/Icon_Kontakt.png', component: kontakt_1.KontaktPage }
+            { title: 'Kontakt', icon: '', image: 'images/Icon_Kontakt.png', component: kontakt_1.KontaktPage },
+            { title: 'Facebook', icon: '', image: 'images/Icon_Facebook.png', component: facebook_1.FacebookPage }
         ];
         this.loggedInPages = [];
         this.loggedOutPages = [];

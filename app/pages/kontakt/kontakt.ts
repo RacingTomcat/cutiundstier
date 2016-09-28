@@ -37,7 +37,7 @@ export class KontaktPage {
         // with BACK-Button
         this.navController.push(KontaktPage);
         // with MENU-Button
-        // this.navController.setRoot(KOntaktPage);
+        // this.navController.setRoot(KontaktPage);
     }
 
     loadMap() {

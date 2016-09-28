@@ -68,6 +68,4 @@
     </ItemGroup>
     <Import Label="Shared" Project="CordovaApp.projitems" />
     <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
-    <PropertyGroup>
-    </PropertyGroup>
 </Project>

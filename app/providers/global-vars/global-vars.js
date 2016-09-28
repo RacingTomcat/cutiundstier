@@ -18,6 +18,7 @@ var GlobalVars = (function () {
         this.logo_projekte = 'images/Icon_Projekte.png';
         this.logo_team = 'images/Icon_Team.png';
         this.logo_kontakt = 'images/Icon_Kontakt.png';
+        this.logo_facebook = 'images/Icon_Facebook.png';
     }
     GlobalVars = __decorate([
         core_1.Injectable(), 

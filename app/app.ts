@@ -5,6 +5,7 @@ import { Splashscreen, StatusBar } from 'ionic-native';
 import { GlobalVars } from './providers/global-vars/global-vars'
 
 import { AppPage } from './pages/app/app';
+import { FacebookPage } from './pages/facebook/facebook';
 import { KontaktPage } from './pages/kontakt/kontakt';
 import { LeistungenPage } from './pages/leistungen/leistungen';
 import { ProjektePage } from './pages/projekte/projekte';
@@ -35,7 +36,8 @@ class CusApp {
       { title: 'Leistungen', icon: '', image: 'images/Icon_Leistungen.png', component: LeistungenPage },
       { title: 'Projekte', icon: '', image: 'images/Icon_Projekte.png', component: ProjektePage },
       { title: 'Team', icon: '', image: 'images/Icon_Team.png', component: TeamPage },
-      { title: 'Kontakt', icon: '', image: 'images/Icon_Kontakt.png', component: KontaktPage }
+      { title: 'Kontakt', icon: '', image: 'images/Icon_Kontakt.png', component: KontaktPage },
+      { title: 'Facebook', icon: '', image: 'images/Icon_Facebook.png', component: FacebookPage }
   ];
   loggedInPages: PageObj[] = [
 
