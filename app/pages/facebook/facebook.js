@@ -12,16 +12,24 @@ var core_1 = require("@angular/core");
 var ionic_angular_1 = require("ionic-angular");
 var facebook_service_1 = require('../../providers/facebook-service/facebook-service');
 var global_vars_1 = require("../../providers/global-vars/global-vars");
+var kontakt_1 = require('../../pages/kontakt/kontakt');
+var projekte_1 = require('../../pages/projekte/projekte');
+var team_1 = require('../../pages/team/team');
 var FacebookPage = (function () {
-    function FacebookPage(navController, global, facebookService) {
+    function FacebookPage(navController, global, kontaktPage, projektePage, teamPage, facebookService) {
         this.navController = navController;
         this.global = global;
+        this.kontaktPage = kontaktPage;
+        this.projektePage = projektePage;
+        this.teamPage = teamPage;
         this.facebookService = facebookService;
         this.nav_title = "Facebook";
         this.title = "Facebook-Feed";
         this.page_id = 'cutiundstier'; // YOUR_PAGE_ID_HERE
-        this.loadFacebookFeed();
     }
+    FacebookPage.prototype.ionViewDidEnter = function () {
+        this.loadFacebookFeed();
+    };
     FacebookPage.prototype.loadFacebookFeed = function () {
         var _this = this;
         this.facebookService.load()
@@ -43,14 +51,14 @@ var FacebookPage = (function () {
         // with BACK-Button
         this.navController.push(FacebookPage);
         // with MENU-Button
-        // this.navController.setRoot(KOntaktPage);
+        //this.navController.setRoot(FacebookPage);
     };
     FacebookPage = __decorate([
         core_1.Component({
             templateUrl: 'build/pages/facebook/facebook.html',
-            providers: [facebook_service_1.FacebookService]
+            providers: [facebook_service_1.FacebookService, kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage]
         }), 
-        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars, facebook_service_1.FacebookService])
+        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars, kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage, facebook_service_1.FacebookService])
     ], FacebookPage);
     return FacebookPage;
 }());

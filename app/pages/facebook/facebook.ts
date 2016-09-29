@@ -10,24 +10,30 @@ import { TeamPage } from '../../pages/team/team';
 
 @Component({
     templateUrl: 'build/pages/facebook/facebook.html',
-    providers: [FacebookService]
+    providers: [FacebookService, KontaktPage, ProjektePage, TeamPage]
 })
 
 export class FacebookPage {
 
     nav_title = "Facebook";
     title = "Facebook-Feed";
+
     page_id: string = 'cutiundstier'; // YOUR_PAGE_ID_HERE
     public facebook_feed: any;
 
     constructor(
         private navController: NavController,
         private global: GlobalVars,
+        private kontaktPage: KontaktPage,
+        private projektePage: ProjektePage,
+        private teamPage: TeamPage,
         public facebookService: FacebookService
     ) {
 
-        this.loadFacebookFeed();
+    }
 
+    ionViewDidEnter() {
+        this.loadFacebookFeed();
     }
 
     loadFacebookFeed() {
@@ -53,7 +59,7 @@ export class FacebookPage {
         // with BACK-Button
         this.navController.push(FacebookPage);
         // with MENU-Button
-        // this.navController.setRoot(KOntaktPage);
+        //this.navController.setRoot(FacebookPage);
     }
 
 }

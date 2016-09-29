@@ -28,7 +28,7 @@ var KontaktPage = (function () {
         // with BACK-Button
         this.navController.push(KontaktPage);
         // with MENU-Button
-        // this.navController.setRoot(KOntaktPage);
+        // this.navController.setRoot(KontaktPage);
     };
     KontaktPage.prototype.loadMap = function () {
         var latLng = new google.maps.LatLng(50.989113, 7.123045);

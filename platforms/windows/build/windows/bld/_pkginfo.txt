@@ -1,1 +1,1 @@
-D:\Ionic2\cutiundstier\platforms\windows\AppPackages\CordovaApp.Windows10_1.1.3.0_anycpu_Test\CordovaApp.Windows10_1.1.3.0_anycpu.appx
+D:\Ionic2\cutiundstier\platforms\windows\AppPackages\CordovaApp.Windows10_1.1.3.0_arm_Test\CordovaApp.Windows10_1.1.3.0_arm.appx

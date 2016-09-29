@@ -126,16 +126,24 @@ var core_1 = require("@angular/core");
 var ionic_angular_1 = require("ionic-angular");
 var facebook_service_1 = require('../../providers/facebook-service/facebook-service');
 var global_vars_1 = require("../../providers/global-vars/global-vars");
+var kontakt_1 = require('../../pages/kontakt/kontakt');
+var projekte_1 = require('../../pages/projekte/projekte');
+var team_1 = require('../../pages/team/team');
 var FacebookPage = (function () {
-    function FacebookPage(navController, global, facebookService) {
+    function FacebookPage(navController, global, kontaktPage, projektePage, teamPage, facebookService) {
         this.navController = navController;
         this.global = global;
+        this.kontaktPage = kontaktPage;
+        this.projektePage = projektePage;
+        this.teamPage = teamPage;
         this.facebookService = facebookService;
         this.nav_title = "Facebook";
         this.title = "Facebook-Feed";
         this.page_id = 'cutiundstier'; // YOUR_PAGE_ID_HERE
-        this.loadFacebookFeed();
     }
+    FacebookPage.prototype.ionViewDidEnter = function () {
+        this.loadFacebookFeed();
+    };
     FacebookPage.prototype.loadFacebookFeed = function () {
         var _this = this;
         this.facebookService.load()
@@ -157,19 +165,19 @@ var FacebookPage = (function () {
         // with BACK-Button
         this.navController.push(FacebookPage);
         // with MENU-Button
-        // this.navController.setRoot(KOntaktPage);
+        //this.navController.setRoot(FacebookPage);
     };
     FacebookPage = __decorate([
         core_1.Component({
             templateUrl: 'build/pages/facebook/facebook.html',
-            providers: [facebook_service_1.FacebookService]
+            providers: [facebook_service_1.FacebookService, kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage]
         }), 
-        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars, facebook_service_1.FacebookService])
+        __metadata('design:paramtypes', [ionic_angular_1.NavController, global_vars_1.GlobalVars, kontakt_1.KontaktPage, projekte_1.ProjektePage, team_1.TeamPage, facebook_service_1.FacebookService])
     ], FacebookPage);
     return FacebookPage;
 }());
 exports.FacebookPage = FacebookPage;
-},{"../../providers/facebook-service/facebook-service":10,"../../providers/global-vars/global-vars":11,"@angular/core":158,"ionic-angular":422}],4:[function(require,module,exports){
+},{"../../pages/kontakt/kontakt":4,"../../pages/projekte/projekte":6,"../../pages/team/team":8,"../../providers/facebook-service/facebook-service":10,"../../providers/global-vars/global-vars":11,"@angular/core":158,"ionic-angular":422}],4:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -200,7 +208,7 @@ var KontaktPage = (function () {
         // with BACK-Button
         this.navController.push(KontaktPage);
         // with MENU-Button
-        // this.navController.setRoot(KOntaktPage);
+        // this.navController.setRoot(KontaktPage);
     };
     KontaktPage.prototype.loadMap = function () {
         var latLng = new google.maps.LatLng(50.989113, 7.123045);
