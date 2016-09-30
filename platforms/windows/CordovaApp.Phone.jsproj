@@ -71,4 +71,7 @@
     <ItemGroup>
         <ProjectReference Include="..\..\plugins\cordova-plugin-vibration\src\windows\Vibration\Vibration.csproj" />
     </ItemGroup>
+    <PropertyGroup>
+        <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    </PropertyGroup>
 </Project>

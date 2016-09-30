@@ -10,3 +10,4 @@ Store-Daten/*
 /*.swp
 .DS_Store
 Thumbs.db
+AppPackages/

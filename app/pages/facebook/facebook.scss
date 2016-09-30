@@ -1,6 +1,7 @@
 .facebook {
 
     ion-card ion-label h3{
+        font-family: Open Sans, Arial;
         font-size: 18px !important;
         font-family: inherit;
     }
@@ -11,7 +12,7 @@
         overflow: hidden;
     }
 
-    ion-row {
+    ion-row.grey {
         background-color: map-get($colors, light);
         margin-bottom: 0;
     }

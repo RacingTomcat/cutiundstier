@@ -8924,6 +8924,7 @@ body {
   display: block; }
 
 .facebook ion-card ion-label h3 {
+  font-family: Open Sans, Arial;
   font-size: 18px !important;
   font-family: inherit; }
 
@@ -8932,7 +8933,7 @@ body {
   margin-bottom: 15px;
   overflow: hidden; }
 
-.facebook ion-row {
+.facebook ion-row.grey {
   background-color: #eee;
   margin-bottom: 0; }
 
